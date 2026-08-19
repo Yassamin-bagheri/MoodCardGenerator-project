@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+
+import Header from "./components/Header";
+import MoodSelector from "./components/MoodSelector";
+import MoodCard from "./components/MoodCard";
+
+import { moods } from "./main/moods";
 
 function App() {
+  const [selectedMood, setSelectedMood] = useState(null);
+  const handleSelectMood = (mood) => {
+    setSelectedMood(mood);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="transform ease-in-out animate-cardAppear transition-all duration-400
+     App flex flex-col align font-sans items-center justify-center py-20 text-center min-h-screen px-4 sm:px-6 md:px-8">
+      <Header />
+
+      <MoodSelector moods={moods} onSelect={handleSelectMood} />
+
+      <MoodCard mood={selectedMood} />
     </div>
   );
 }

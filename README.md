@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# MoodCard Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and responsive React application that allows users to select their current mood and displays a personalized mood card.
 
-## Available Scripts
+## 📌 Project Overview
 
-In the project directory, you can run:
+MoodCard Generator is a React project developed to practice component-based development, state management, responsive UI design, and Tailwind CSS.
 
-### `npm start`
+The user can select a mood from a list of available moods. Each mood contains an emoji, a name, and a custom message. After selecting a mood, the corresponding mood card is displayed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Select a mood from different mood buttons
+- Display a personalized mood card
+- Dynamic mood information
+- Responsive design
+- Interactive buttons with hover effects
+- Animated mood card
+- Component-based React structure
 
-### `npm test`
+## 🛠️ Technologies and Libraries
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- JavaScript
+- Tailwind CSS
+- CSS
+- Create React App
+- Git / GitHub
 
-### `npm run build`
+## 📁 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```text
+my-moodcard/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── MoodButton.js
+│   │   ├── MoodCard.js
+│   │   └── MoodSelector.js
+│   │
+│   ├── main/
+│   │   └── moods.js
+│   │
+│   ├── App.js
+│   ├── App.css
+│   ├── index.css
+│   └── index.js
+│
+├── postcss.config.js
+├── tailwind.config.js
+├── package.json
+├── package-lock.json
+└── README.md
+```
