@@ -11,7 +11,7 @@ function MoodCard({ mood }) {
 
   return (
     <div
-      className="mood-card  h-48 my-8  text-center 
+      className="mood-card min-h-48 my-8 text-center 
       border-2 border-slate-400 shadow-2xl w-full max-w-sm mx-auto rounded-3xl p-6 sm:p-8
       transform ease-out animate-cardAppear transition-all duration-300 hover:scale-105
       hover:shadow-[0_20px_50px_rgba(0,0,0,0.25)]"

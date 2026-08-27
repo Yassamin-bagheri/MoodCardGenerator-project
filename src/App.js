@@ -13,8 +13,10 @@ function App() {
   };
 
   return (
-    <div className="transform ease-in-out animate-cardAppear transition-all duration-400
-     App flex flex-col align font-sans items-center justify-center py-20 text-center min-h-screen px-4 sm:px-6 md:px-8">
+    <div
+      className="App flex min-h-screen w-full flex-col items-center justify-center 
+    px-4 py-12 text-center font-sans sm:px-6 sm:py-16 md:px-8 md:py-20"
+    >
       <Header />
 
       <MoodSelector moods={moods} onSelect={handleSelectMood} />

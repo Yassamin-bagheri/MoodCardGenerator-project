@@ -3,14 +3,6 @@
     padding: 30px 20px;
   }
 
-  .mood-selector {
-    flex-direction: column;
-  }
-
-  .mood-selector button {
-    width: 100%;
-  }
-
   .mood-card {
     padding: 35px 20px;
   }
